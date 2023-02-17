@@ -6,7 +6,7 @@
   "scripts": {
     "build": "ncc build src/index.ts -o build/",
     "format": "prettier --write '**/*.js' '**/*.ts'",
-    "build-all": "npm run build && npm run format"  
+    "build-action": "npm run build && npm run format"  
   },
   "repository": {
     "type": "git",

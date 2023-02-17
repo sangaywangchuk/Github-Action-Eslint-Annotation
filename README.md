@@ -58,7 +58,7 @@ jobs:
         # See https://eslint.org/docs/user-guide/command-line-interface#options
         run: yarn lint:report
       - name: Annotate Code Linting Results
-        uses: selisebt/lint-action@v1
+        uses: sangaywangchuk/github-action-eslint-annotation/@beta-v1
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           report-json: "eslint_report.json"
